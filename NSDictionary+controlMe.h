@@ -10,4 +10,8 @@
 
 @interface NSDictionary (controlMe)
 
+- (id)keyIsNull:(id)key;
+- (NSNumber *)keyToNumber:(id)key;
+- (NSDate *)keyToDate:(id)key;
+
 @end
